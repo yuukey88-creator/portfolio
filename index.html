@@ -1,31 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>室井 優希 Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>マイページ</h1>
-    </header>
 
-    <main>
-        <h1>制作物</h1>
-        <h3>くもっち</h3>
-        <h3>カジノ</h3>
+<header class="hero">
+    <h1>室井 優希</h1>
+    <p>Webエンジニアを目指して学習中です</p>
+    <a href="#works" class="btn">制作物を見る</a>
+</header>
 
+<section class="profile">
+    <h2>Profile</h2>
+    <p>
+        前職では住宅建築会社で点検管理や顧客対応を担当し、
+        Excelを活用した業務改善に取り組みました。
+        現在は職業訓練でHTML/CSS、JavaScript、PHP、MySQLを学習しています。
+    </p>
+</section>
 
-        <h1>スキル</h1>
+<section class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML / CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>MySQL</li>
+        <li>Git / GitHub</li>
+    </ul>
+</section>
 
+<section id="works" class="works">
+    <h2>Works</h2>
 
-    </main>
+    <div class="work-card">
+        <img src="images/casino.jpg" alt="カジノゲーム">
+        <h3>カジノゲーム</h3>
+        <p>
+            PHPとMySQLを使用した会員制のカジノゲームです。
+            ログイン、所持金管理、スロット、ランキング機能を実装しました。
+        </p>
+        <p class="tech">HTML / CSS / JavaScript / PHP / MySQL</p>
+        <a href="https://ym.freehosting.dev/" target="_blank">デモサイト</a>
+        <a href="#" target="_blank">GitHub</a>
+    </div>
+</section>
 
-    <footer>
+<footer>
+    <p>&copy; 2026 Yuki Muroi</p>
+</footer>
 
-
-    </footer>
-    
 </body>
 </html>

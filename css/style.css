@@ -1,3 +1,104 @@
-header{
-    background-color: aqua;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    color: #222;
+    background: #f5f7fa;
+    line-height: 1.8;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0f172a, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: white;
+    color: #2563eb;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+section {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 32px;
+    border-left: 6px solid #2563eb;
+    padding-left: 12px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 0;
+}
+
+.skills li {
+    list-style: none;
+    background: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.work-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+    padding-bottom: 24px;
+}
+
+.work-card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.work-card h3,
+.work-card p,
+.work-card a {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.tech {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.work-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #0f172a;
+    color: white;
 }
